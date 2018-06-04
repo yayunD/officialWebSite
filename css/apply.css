@@ -1,0 +1,215 @@
+@import "cssReset.css";
+@import "common.css";
+.headerBanner {
+  height: 250px;
+  width: 100%;
+  background: url('../images/apply_image/apply_banner.jpg') no-repeat center;
+}
+
+.OracleContentShow {
+  width: 100%;
+  display: none;
+}
+
+.OralTitle {
+  overflow: hidden;
+  padding: 33px 0px;
+}
+
+.OralTitle>h3 {
+  font-size: 20px;
+  color: #232323;
+  font-weight: bold;
+}
+
+.OralTitle>h4 {
+  font-size: 15px;
+  color: #999999;
+  font-weight: bold;
+}
+.signUpContent{
+  text-align: left;
+  overflow: hidden;
+  border-bottom: 1px #999999 dashed;
+  padding: 50px 0px;
+}
+.signUpContentTitle{
+  padding-bottom: 25px;
+}
+.signUpContentTitle>h3{
+}
+.signUpContentTitle>h3>span{
+  font-size: 20px;
+  color: #333333;
+  font-weight: bold;
+}
+.signUpContentTitle>h3>span:nth-child(1){
+  margin-right: 20px;
+  color: #e60012;
+  font-weight: bold;
+  font-size: 22px;
+}
+.signUpContentDetail{
+}
+.signUpContentDetail_l{
+  width: 599px;
+  float: left;
+  padding-left: 20px;
+  /* background: #999999; */
+}
+.signUpContentDetail_l>h4{
+  padding-bottom: 20px;
+  border-right: 1px #999999 dashed;
+}
+.signUpContentDetail_l>h4:last-child{
+  padding:0;
+}
+.signUpContentDetail_r{
+  /* background: #e60012; */
+  padding-left: 80px;
+  float: left;
+}
+.signUpContentDetail_r>h4{
+  padding-bottom: 20px;
+}
+.signUpContentDetail_l>h4>span,.signUpContentDetail_r>h4>span{
+  font-size: 15px;
+  color: #333333;
+  padding-right: 20px;
+
+}
+.signUpContentDetail_l>h4>span:nth-child(4),.signUpContentDetail_r>h4>span:nth-child(4){
+  padding: 3px 11px;
+  border: 1px #e60012 solid;
+  color: #e60012;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+/*内容三*/
+.signUpContentDetail{
+  padding-left: 30px;
+}
+.signUpContentDetail>h5{
+  /* padding-left: 20px; */
+  text-indent:20px;
+  font-size: 15px;
+  line-height: 37px;
+  color: #333333;
+}
+.signUpContent_last{
+  border-bottom: none;
+}
+.checkBtn{
+  padding-bottom: 36px;
+}
+.checkBtn>a{
+  font-size: 17px;
+  padding: 10px 66px;
+  background: #e60012;
+  color: #ffffff;
+  /* font-weight: bold */
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  margin-bottom: 36px;
+}
+/*内容区域二*/
+.detail_l{
+  width: 760px;
+  float: left;
+  overflow: hidden;
+  /* background: khaki; */
+}
+.detail_l>h4{
+  /* display: inline-block; */
+  width: 300px;
+  /* background:greenyellow; */
+  line-height: 60px;
+  float: left;
+  overflow: hidden;
+}
+.detail_l>h4>a{
+  font-size: 15px;
+  color: #e60012;
+  padding-right: 10px;
+}
+.detail_l>h4>span{
+  font-size: 15px;
+  color: #333333;
+  padding-right: 10px;
+}
+.addshuxin{
+  margin-bottom: 57px
+}
+/* .detail_l>h4>a:last-child{
+  padding: 15px 80px;
+  border: 1px #999999 solid;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  margin-bottom: 36px;
+}
+.detail_l>h4>a:last-child>input{
+
+} */
+/* 改变input样式 */
+/* .file {
+  /* position: relative;
+  display: inline-block;
+  /* background: #ccc; */
+  /*border: 1px solid #333;
+  padding: 15px 80px;
+  overflow: hidden;
+  text-decoration: none;
+  text-indent: 0;
+  border-radius: 5px;
+  /* font-size: 13px */
+/* }*/
+
+.detail_l>h4> input {
+  display: inline-block;
+  height: 30px;
+  width: 160px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+.detail_r{
+  float: left;
+  width: 410px;
+  height: 170px;
+  /* background: gold; */
+  overflow: hidden;
+  /* background: red; */
+}
+/* detail_r */
+.yuyueBtn{
+  margin: 10px;
+}
+.yuyueBtn>a{
+  display: inline-block;
+  font-size: 20px;
+  width:200px;
+  line-height: 40px;
+  background: red;
+  color: #ffffff;
+  /* overflow: hidden; */
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.detail_r>h6{
+  width: 220px;
+  font-size: 12px;
+  color: #999999;
+}

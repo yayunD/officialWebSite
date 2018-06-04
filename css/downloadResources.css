@@ -1,0 +1,171 @@
+@import "cssReset.css";
+@import "common.css";
+
+/*banner图*/
+.headerBanner{
+  height: 250px;
+  width: 100%;
+  background: url('../images/downloadRresuorces_image/downloadBanner.png') no-repeat center;
+}
+
+/*资源分类*/
+.resourcesCategories{
+  overflow: hidden;
+  text-align: center;
+}
+
+/*资源分类导航栏*/
+.resourcesCategories>ul{
+  /* display: inline-block; */
+	margin-left: 410px;
+  overflow: hidden;
+}
+.resourcesCategories>ul>li{
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  padding: 0px 25px;
+  background: url('../images/introduce_image/border_oc_03.jpg') no-repeat right;
+}
+.resourcesCategories>ul>li:nth-child(4){
+  background: none;
+}
+.resourcesCategories>ul>li a{
+  font-size: 14px;
+  color: #232323;
+  display: inline-block;
+  width: 85px;
+  padding: 18px 0px;
+}
+
+/* .resourcesCategories>ul>li a:hover{
+	border-bottom:2px #e60012 solid;
+} */
+
+
+
+
+
+/*分类详情*/
+.resourcesContent{
+	height: 1210PX;
+}
+
+/*分类详情标题*/
+.resourcesContenetTitle{
+	height: 90px;
+	overflow: hidden;
+}
+
+.resourcesContenetTitle>h1{
+	font-size: 24px;
+	line-height: 90px;
+	height: 65px;
+}
+
+.resourcesContenetTitle>p{
+	max-height: 35px;
+	color: #ccc;
+}
+
+
+/*分页详情内容*/
+.resourContentLayout{
+	height: 1000px;
+}
+
+.resourContentLayout>li{
+	height: 125px;
+	border-bottom:1px dashed #ccc;
+	background: url('../images/downloadRresuorces_image/file-1.png') no-repeat left center;
+}
+
+.resourContentLayout>li:nth-child(2){ 
+	background: url('../images/downloadRresuorces_image/file-2.png') no-repeat left center;
+}
+
+.resourContentLayout>li:nth-child(4){
+	background: url('../images/downloadRresuorces_image/file-3.png') no-repeat left center;
+}
+
+.resourContentLayout>li:nth-child(6){
+	background: url('../images/downloadRresuorces_image/file-4.png') no-repeat left center;
+}
+
+.resourContentLayout>li:nth-child(7){
+	background: url('../images/downloadRresuorces_image/file-5.png') no-repeat left center;
+}
+
+.resourContentLayout>li:nth-child(8){
+	background: url('../images/downloadRresuorces_image/file-6.png') no-repeat left center;
+}
+
+.resourContentLayout>li>.firstPart{
+	float: left;
+	padding-left: 70px;
+	color:#999;
+	text-align: left;
+	
+}
+
+.resourContentLayout>li>.firstPart>p:first-child{
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+.resourContentLayout>li>.firstPart>p:nth-child(2){
+	margin-top: 10px;
+	margin-left: 2px;
+}
+
+
+.resourContentLayout>li>.secondPart{
+	float:right;
+	background: url('../images/downloadRresuorces_image/downloadRresourcesLine.jpg') no-repeat left center;
+}
+
+.resourContentLayout>li>.secondPart>a{
+	display: block;
+	height: 125px;
+	width: 112px;
+	background: url('../images/downloadRresuorces_image/download-gray.png') no-repeat  center;
+}
+
+.resourContentLayout>li>.secondPart>a:hover{
+	background: url('../images/downloadRresuorces_image/download-blue.png') no-repeat  center;
+}
+
+.resourContentLayout>li:nth-child(3)>.secondPart>a{
+	background: url('../images/downloadRresuorces_image/download-blue.png') no-repeat  center;
+}
+
+
+/*分页*/
+.resourcesContentBotton{
+	height: 120px;
+}
+
+.resourcesContentBotton>ul{
+	margin-top: 53px;
+	font-size: 16px;
+}
+
+.resourcesContentBotton>ul>li{
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+.resourcesContentBotton>ul>li>a{
+	display: block;
+	padding:3px 6px; 
+}
+
+.resourcesContentBotton>ul>li:nth-child(2)>a{
+	background-color: red;
+	color:#fff; 
+}
+
+.resourcesContentBotton>ul>li>a:hover{
+	background-color: red;
+	color:#fff;
+}

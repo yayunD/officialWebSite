@@ -1,0 +1,88 @@
+@import "cssReset.css";
+@import "common.css";
+.headerBanner {
+  height: 250px;
+  width: 100%;
+  background: url('../images/frontClass_image/qianyan-img.png') no-repeat center;
+}
+
+.OracleContentShow {
+  width: 100%;
+  display: none;
+}
+
+.OralTitle {
+  overflow: hidden;
+  padding: 33px 0px;
+}
+
+.OralTitle>h3 {
+  font-size: 20px;
+  color: #232323;
+  font-weight: bold;
+}
+
+.OralTitle>h4 {
+  font-size: 15px;
+  color: #999999;
+  font-weight: bold;
+}
+
+.introduceSuWen {
+  overflow: hidden;
+  text-align: center;
+}
+
+.text_content>dl {
+  width: 280px;
+  height: 328px;
+  background: #ec424f;
+  float: left;
+  overflow: hidden;
+  margin-right: 25px;
+  margin-bottom: 30px;
+}
+.text_content>dl>dt{
+  padding-top: 40px
+}
+
+.text_content>dl>dd>h3 {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.text_content>dl>dd{
+}
+
+.text_content>dl>dd>a {
+  margin-top: 20px;
+  display: inline-block;
+  overflow:hidden;
+  font-size: 15px;
+  color: #ec424f;
+  padding: 7px 15px;
+  background: #fff;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.text_content>dl:nth-child(4n){
+  margin: 0;
+}
+.text_content>dl:nth-child(2){
+  background: #42baec;
+}
+.text_content>dl:nth-child(3){
+  background: #ec9242;
+}
+.text_content>dl:nth-child(4){
+  background: #4296ec;
+}
+.text_content>dl:nth-child(5){
+  background: #42ecce;
+}
+.text_content>dl:nth-child(6){
+  background: #6a42ec;
+}

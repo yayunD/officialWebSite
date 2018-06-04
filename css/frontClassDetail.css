@@ -1,0 +1,105 @@
+@import "cssReset.css";
+@import "common.css";
+.headerBanner {
+  height: 250px;
+  width: 100%;
+  background: url('../images/forntClassDetail_img/kecheng-img.png') no-repeat center;
+}
+/*前言课程详情table切换*/
+.classDtail{
+  border: 1px #999999 solid;
+  text-align:center;
+  overflow: hidden;
+  height: 50px;
+}
+.classDtailShow{
+  /* background: red; */
+  overflow: hidden;
+  padding-left: 420px;
+}
+.intrNavActive{
+  border-bottom:2px #e60012 solid;
+}
+.classDtailShow >li{
+  float: left;
+  overflow: hidden;
+  display: inline-block;
+  line-height: 50px;
+  width: 256px;
+  background: url('../images/introduce_image/border_oc_03.jpg') no-repeat right;
+}
+.classDtailShow>li:nth-child(3){
+  background: none;
+}
+.classDtailShow >li>a{
+  font-size: 14px;
+  color: #232323;
+  padding: 13px 0px;
+}
+.detailContent{
+  text-align: center;
+}
+.detailText{
+  overflow: hidden;
+  display: none
+}
+.detailText >dl{
+  height: 345px;
+  border-bottom: 1px #bebebe dashed;
+  overflow: hidden;
+}
+.detailText >dl>dt{
+  width: 587px;
+  height: 343px;
+  float: left;
+  /* background: lemonchiffon; */
+  padding-top: 50px;
+  overflow: hidden;
+}
+.detailText >dl>dd{
+  text-align: left;
+  width: 300;
+  height: 343px;
+  padding-left:12px;
+  /* background: #e60012 */
+}
+.detailText >dl>dd>h3{
+  font-size: 22px;
+  color: #000000;
+  font-weight: bold;
+ margin-top:45px;
+}
+.detailText >dl>dd>h4 {
+  padding: 20px 0px 7px 0px;
+}
+.detailText >dl>dd>h4 >a{
+display: inline-block;
+padding: 4px 6px;
+border-radius: 5px;
+border:1px #e60012 solid;
+color: #e60012;
+font-size: 14px;
+margin-right: 7px;
+}
+.detailText >dl>dd>h5{
+  margin-top: 5px;
+  margin-bottom: 15px;
+  display: inline-block;
+  font-size: 14px;
+  color: #666666;
+  width: 548px;
+}
+.detailText >dl>dd>h6>a{
+display: inline-block;
+padding: 8px 16px;
+border-radius: 5px;
+color: #fff;
+font-size: 15px;
+margin-right: 24px;
+}
+.detailText >dl>dd>h6>a:nth-child(1){
+  background: #e70012;
+}
+.detailText >dl>dd>h6>a:nth-child(2){
+  background: #e77200;
+}

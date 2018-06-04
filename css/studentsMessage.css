@@ -1,0 +1,232 @@
+@import "cssReset.css";
+@import "common.css";
+
+
+/*banner图*/
+.headerBanner{
+  height: 250px;
+  width: 100%;
+  background: url('../images/studentMessage_image/xueyuan-img.png') no-repeat center;
+}
+
+/*寄语导航栏*/
+.messageNav{
+	text-align: center;
+	border-bottom: 1px #999 solid;
+}
+
+.messageNav>li{
+	height: 50px;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 50px;
+}
+
+.messageNav>li:first-child{
+	background:  url('../images/studentMessage_image/messageNavLine.png') no-repeat right center;
+}
+
+.messageNav>li:first-child>a{
+	padding-right:25px;
+}
+
+.messageActive{
+	border-bottom:2px #f00 solid;
+}
+
+.messageNav>li>a{
+	padding: 10px 20px;
+
+}
+
+
+/*学员寄语*/
+.sudentMessageShow{
+	/*display: none;*/
+}
+
+.sudentMessageShow>h1{
+	text-align: center;
+	
+}
+
+.sudentMessageShow>h1>p:first-child{
+	margin-top: 30px;
+	font-size: 24px;
+
+}
+
+.sudentMessageShow>h1>p:nth-child(2){
+	font-size: 16px;
+	color: #666;
+	
+}
+
+.sudentMessageShow .studentMessageContent li{
+	height: 230px;
+	border-bottom: 1px #ccc dashed; 
+	margin-top: 50px;
+}
+
+.sudentMessageShow .studentMessageContent li .contentLeft{
+	float: left;
+}
+
+.sudentMessageShow .studentMessageContent li .contentLeft img{
+	float: left;
+}
+
+.sudentMessageShow .studentMessageContent li .contentLeft .studentConstrct{
+	float: left;
+	height: 173px;
+	width: 300px;
+	background-color: #eee;
+	line-height: 22px;
+	padding-left:20px;
+	color: #666;
+}
+
+.sudentMessageShow .studentMessageContent li .contentLeft .studentConstrct p{
+	font-size: 18px;
+	font-weight:bold;
+	margin:20px 0; 
+	color: #000;
+}
+
+.sudentMessageShow .studentMessageContent li .contentLeft .studentConstrct b{
+	color:#f00;
+}
+
+.sudentMessageShow .studentMessageContent li .contentRight{
+	float: left;
+	padding-left:45px;
+	color: #666;
+}
+
+.sudentMessageShow .studentMessageContent li .contentRight h2{
+	font-size: 18px;
+	margin:20px 0;
+}
+
+.sudentMessageShow .studentMessageContent li .contentRight h2>b{
+	color: #f00;
+
+}
+
+.sudentMessageShow .studentMessageContent li .contentRight h2>span{
+	float: right;
+	display: inline-block;
+	font-size: 14px;
+	padding-left: 25px;
+	background:  url('../images/studentMessage_image/clockTag.png') no-repeat left center;
+
+}
+
+.sudentMessageShow .studentMessageContent li .contentRight>p{
+	line-height: 22px;
+}
+
+/*分页*/
+.messageContentBotton{
+	overflow: hidden;
+	text-align: center;
+}
+
+.messageContentBotton>ul{
+	margin:35px 0;
+	font-size: 16px;
+}
+
+.messageContentBotton>ul>li{
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+.messageContentBotton>ul>li>a{
+	display: block;
+	padding:3px 6px; 
+}
+
+.messageContentBotton>ul>li:nth-child(2)>a{
+	background-color: red;
+	color:#fff; 
+}
+
+.messageContentBotton>ul>li>a:hover{
+	background-color: red;
+	color:#fff;
+}
+
+
+/*优秀学员*/
+.excellentCadetShow{
+	display: none;
+}
+
+
+.excellentCadetShow>h1{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.excellentCadetShow>h1>p:first-child{
+	margin-top: 30px;
+	font-size: 24px;
+
+}
+
+.excellentCadetShow>h1>p:nth-child(2){
+	font-size: 16px;
+	color: #666;
+}
+
+.excellentCadetShow>ul>li{
+	margin-right: 50px;
+}
+
+.excellentCadetShow .exceilentStudentDetail>a{
+	display: inline-block;
+	margin:0 15px 50px 0;
+}
+
+
+
+.excellentCadetShow dl{
+	overflow: hidden;
+	height: 364px;
+	width: 280px;
+	float: left;
+	border-right:1px #fff solid;
+	border-bottom: 1px #fff solid;
+}
+
+
+.excellentCadetShow .exceilentStudentDetail>a:hover>dl{
+	border-right:1px #ccc solid;
+	border-bottom: 1px #ccc solid;
+	box-shadow:#ccc 4px 4px 5px;
+	border-radius: 10px;
+}
+
+.excellentCadetShow dl dt{
+	padding:10px;
+}
+
+
+.excellentCadetShow dl dd{
+	line-height: 18px;
+	padding:10px;
+	color: #666;
+	border-bottom:1px #f00 dashed ;
+}
+
+.excellentCadetShow dl dd p{
+	font-size: 18px;
+	font-weight:bold;
+	margin:3px 0; 
+	color: #000;
+}
+
+.excellentCadetShow dl dd b{
+	color:#f00;
+}

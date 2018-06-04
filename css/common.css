@@ -1,0 +1,270 @@
+/*
+头部尾部
+和
+公共样式
+*/
+.Content{
+    width:1920px;
+    background: white;
+}
+.layout{
+    width:1200px;
+    margin: 0 auto;
+    /* border-right: 1px #000000 solid */
+}
+/*
+头部同样
+*/
+.headerTop{
+    background: #333333;
+    height: 30px;
+}
+.headerTopContent {
+    overflow: hidden;
+}
+.headerTopContent >span{
+    color: white;
+    display:inline-block;
+    font-weight: bold;
+    font-size: 14px;
+}
+.headerTopContent>span:nth-child(1) {
+    float: left;
+    padding: 6px 23px;
+}
+.headerTopContent>span:nth-child(2){
+    float: right;
+    padding: 6px 16px;
+}
+.headerTitle{
+    background: #ffffff;
+    height:90px; 
+}
+.headerTitleContent{
+    padding: 35px 0px 25px 0px;
+    overflow: hidden;
+}
+.headerTitleContent >span{
+    padding: 0 23px;
+    display: inline-block;
+ }
+.headerTitleContent >span:nth-child(1){
+    float: left;
+}
+.headerTitleContent >span:nth-child(2){
+    float: right;
+}
+.headerTitleContent >span:nth-child(3) {
+    float: right;
+    border-right: 1px #000000 solid;
+}
+/*头部导航栏样式*/
+.headerNav{
+    border-top: 1px #999999 solid
+}
+.headerNavContent{
+    overflow: hidden;
+}
+.headerNavContent >li{
+    float: left;
+    overflow: hidden;
+}
+.headerNavContent >li>a{
+    display: inline-block;
+    height: 15px;
+    font-size: 15px;
+    padding:15px 25px;
+}
+.headerNavContent >li:hover a{
+    background:#e60012;
+    color: #ffffff;
+}
+.headerNavContent >li .active{
+    background: #e60012;
+    color: #ffffff;
+}
+/* .headerNavContent >li:active a{
+    background:#e60012;
+    color: #ffffff;
+} */
+/* .headerNavContent >li:hover .headerNav > .headerBanner_subNav{
+    display: none;
+} */
+/* .headerNavContent >li:nth-child(5) >a{
+} */
+.headerBanner{
+    height: 400px;
+    background: url('../images/index_image/banner-1.png') no-repeat center;
+    position: relative;
+}
+.headerBanner_subNav{
+    /* display: none; */
+    position: absolute;
+    z-index: 100;
+    height: 40px;
+    width: 100%;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+}
+.headerNavContent >li .active:hover .headerBanner_subNav{
+    display:block;
+}
+.headerBanner_subNavContent >li {
+    overflow: hidden;
+}
+.headerBanner_subNavContent >li:nth-child(1){
+    margin-left: 123px;
+}
+.headerBanner_subNavContent >li >a{
+    font-size: 13px;
+    display: inline-block;
+    padding: 10px;
+}
+.headerBanner_subNavContent >li:hover a{
+    color: #e60012;
+}
+.nav_active{
+    color: #e60012;
+}
+.headerBanner_subNavContent >li{
+    float: left;
+}
+footer{
+    /* position: fixed;
+    margin-bottom: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+    width: 100%;
+    color: white;
+}
+.footerTop{
+    background: #333333;
+    height: 198px;
+    width: 100%;
+    background: url('../images/index_image/foot_bg_10.jpg')repeat-x center;
+}
+.footerBottom{
+    background: #1a1a1a;
+    color: #5e5e5e;
+}
+.footerBottomContent{
+    overflow: hidden;
+    margin: 0 auto;
+   text-align: center;
+}
+.footerBottomContent>span{
+    padding: 6px;
+}
+.contentTop{
+    height: 198px;
+    /* background: black; */
+    width: 100%;
+    overflow: hidden;
+}
+.contentTopUp{
+    height: 166px;
+    width: 100%;
+    overflow: hidden;
+}
+.recommendClass{
+    width: 240px;
+    height: 166px;
+    float: left;
+    overflow: hidden;
+    margin-left: 23px
+}
+.recommendClass >dt,.studentServe >dt,.aboutUs >dt,.contactUs >dt{
+    padding: 20px 0px;
+}
+.recommendClass >dt >h3, .studentServe >dt >h3,.aboutUs >dt >h3,.contactUs >dt >h3{
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.recommendClass >dd>h4, .studentServe >dd>h4,.aboutUs >dd>h4,.contactUs>dd>h4{
+    padding: 2px 0px;
+    font-size: 14px;
+    color:#7a7a7a;
+}
+.studentServe{
+    float: left;
+    width: 133px;
+    overflow: hidden;
+    height: 166px;
+}
+.aboutUs{
+    float: left;
+    width: 396px;
+    overflow: hidden;
+    height: 166px;
+    /* border: 1px wheat solid; */
+}
+.erweima{ 
+    float: left;
+    width: 118px;
+    overflow: hidden;
+    padding: 40px 0px;
+}
+.friendLyLink{
+    border-top: 1px #7a7a7a solid;
+    margin:0px  23px;
+    padding: 8px 0px;
+}
+.contactUs{
+    float: left;
+    width: 255px;
+    height: 166px;
+    overflow: hidden;
+}
+.matter{
+    min-height: 800px
+}
+/*title*/
+.OracleContentShow {
+    width: 100%;
+    display: none;
+  }
+  
+  .OralTitle {
+    overflow: hidden;
+    padding: 33px 0px;
+  }
+  
+  .OralTitle>h3 {
+    font-size: 20px;
+    color: #232323;
+    font-weight: bold;
+  }
+  
+  .OralTitle>h4 {
+    font-size: 15px;
+    color: #999999;
+    font-weight: bold;
+  }
+  
+  .introduceSuWen {
+    overflow: hidden;
+    text-align: center;
+  }
+  .intrNavActive{
+    border-bottom:2px #e60012 solid;
+  }
+  .OracleContentShow{
+    width: 100%;
+    display: none;
+  }
+  .OralTitle{
+    overflow: hidden;
+    padding: 33px 0px;
+  }
+  .OralTitle >h3{
+    font-size: 20px;
+    color:#232323;
+    font-weight: bold;
+  }
+  .OralTitle >h4{
+    font-size: 15px;
+    color:#999999;
+    font-weight: bold;
+  }
